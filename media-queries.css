@@ -1,0 +1,310 @@
+@media  screen and (max-width:991px){
+    .nav1{
+        width: 100%;
+        
+    }
+
+   .hmbrgr-menu{
+    display: block;
+   }
+
+   .search-bar{
+    display: none;
+   }
+
+   .side-links{
+    display: none;
+   }
+
+   .links a{
+    display: none;
+   }
+
+   .nav2{
+    justify-content: space-between;
+    padding-inline: 80px;
+   }
+
+   .banner img{
+    height:300px ;
+    width: 100%;
+   }
+
+   .two-image-banner {
+       display: flex;
+       
+       gap: 10px;
+       padding-left: 70px;
+       
+       
+
+   }
+
+   .first-image{
+    width: 50%;
+   
+   }
+
+   .first-image img{
+    width: 100%;
+    
+   }
+
+   .second-image{
+    width: 50%;
+    
+   }
+
+   .second-image img{
+    width: 100%;
+   }
+
+
+    .reviews-cards{
+        width: 100%;
+        font-size: 0.6rem;
+    }
+
+    .para1{
+        font-size: 0.8rem;
+    }
+
+    .reviews-first-card .para{
+        font-size: 0.8rem;
+    }
+
+    .reviews-first-card{
+        width: 250px;
+    }
+
+    .reviews-cards{
+        display: flex;
+        justify-content: center;
+        padding-right: 50px;
+    }
+
+    .constants{
+        margin-top: 20px;
+    }
+
+   .last-banner1{
+    position: relative;
+    
+   }
+
+   .banner2{
+    padding-block: 10px;
+    font-size: 0.9rem;
+    width: 450px;
+    padding-inline: 50px;
+    bottom: 10px;
+    position: absolute;
+    left: 450px;
+   }
+
+   .last-banner2{
+    margin-right: 10px;
+   }
+
+   .footer-logo{
+    height: 50px;
+    
+   }
+
+   .footer-1 .llinks{
+    display:flex;
+    gap: 30px
+   }
+    
+   
+}
+
+
+
+@media screen and (max-width:767px){
+        .nav1{
+            max-width: 100%;
+            font-size: 15px;
+        }
+}
+
+@media screen and (max-width:479px){
+    .nav1{
+        width: 100vw;
+    }
+
+    .nav1 a{
+        font-size: 0.8rem;
+    }
+
+    .nav2{
+        padding-inline: 10px;
+    }
+
+    .banner img{
+        height: 200px;
+    }
+
+    .two-image-banner{
+        display: flex;
+        flex-direction: column;
+        background-color: crimson;
+        padding-inline: 20px;
+        padding-right: 30px;
+    }
+
+    .first-image{
+        width: 100%;
+    }
+
+    .second-image{
+        width: 100%;
+    }
+
+    
+
+    .reviews-first-card{
+        margin-block: 10px;
+        margin-left: 20px;
+    }
+
+
+   
+
+    .ingredients .icons{
+        
+        width: 100%;
+        padding-inline: 30px;
+        gap: 10px;
+        padding-right: 40px;
+    }
+
+    .icon1{
+        height: 80px;
+        width: 140px;
+    }
+
+    .icon2{
+        height: 80px;
+        width: 140px;
+    }
+
+
+    .icon3{
+        height: 80px;
+        width: 140px;
+    }
+
+    .icon4{
+        height: 80px;
+        width: 140px;
+    }
+
+    .icon5{
+        height: 80px;
+        width: 140px;
+    }
+
+    .coconut-water{
+        width:400px;
+        margin-inline: 20px;
+    }
+
+        .last-banner1{
+           
+            padding-inline: 20px;
+            gap: 5px;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+            position: relative;
+            
+            
+            
+        }
+
+        .banner1{
+            width: 100%;
+        }
+        
+        .banner2{
+            width: 100%;
+            display: none;  
+        }
+
+        .banner1 img{
+            border-radius: 20px;
+        }
+
+
+        .last-banner2-cards{
+            display: flex;
+            flex-wrap: flex;
+            
+            width: 100%;
+        }
+
+        .last-banner2-cards .card1{
+            width: 50%;
+            background-size: cover;
+            background-position: -15px 0px;
+        }
+
+        .last-banner2-cards .card2{
+            width: 50%;
+            background-size: cover;
+            background-position: -20px 0px;
+        }
+
+        .last-banner2-cards .card3{
+            width: 50%;
+            background-size: cover;
+            background-position: -20px 0px;
+        }
+
+        .last-banner2-cards .card4{
+            width: 50%;
+            background-size: cover;
+            background-position: -14px 0px;
+        }
+
+       footer{
+        padding-inline: 2px;
+       }
+
+        .footer-1{
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            background-color:rgb(0,51,102);
+            text-align: center;
+        }
+
+        .footer-logo{
+            width:100%;
+            margin-left: 300px;
+            margin-bottom: 30px;
+
+        }
+
+        .llinks{
+            gap: 30px;
+            font-size: 0.8rem;
+            display: flex;
+            
+          
+            
+        }
+
+        .llinks h2{
+            font-size: 0.8rem;
+        }
+
+        .links-list1,.links-list2,.links-list3{
+            text-align: center;
+        }
+
+        
+
+}  
